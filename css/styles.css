@@ -151,6 +151,12 @@ ol {
   font-weight: 700;
 }
 
+.section-2 {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  background: #ffffff;
+}
 .container {
   width: 1200px;
   text-align: center;
@@ -158,10 +164,17 @@ ol {
 }
 .section1 {
   background-color: #2f303a;
+  background-image: url("../images/background.jpg");
   width: 100%;
   min-width: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
+.new {
+  background: rgba(47, 48, 58, 0.4);
+  width: 100%;
+  height: 100%;
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -249,6 +262,39 @@ ol {
 .marg {
   margin: 0px;
 }
-.aaaaa::before {
-  content: "fsdgfgf";
+
+.pic {
+  background: #f5f4fa;
+  height: 120px;
+  margin-bottom: 30px;
+
+  border-radius: 4px 4px 4px 4px;
+  padding: 25px 100px 25px 100px;
+}
+.svg {
+  margin-right: 10px;
+}
+.pic3 {
+  margin-right: 10px;
+  fill: #afb1b8;
+}
+
+.pic3:last-child {
+  margin-right: 0px;
+}
+
+.pic3:focus,
+.pic3:hover {
+  background: #2196f3;
+  border-radius: 50%;
+  fill: #ffffff;
+}
+.das {
+  width: 1200px;
+  margin: 0 auto;
+}
+.las {
+  width: 500px;
+}
+.pic3 {
 }
